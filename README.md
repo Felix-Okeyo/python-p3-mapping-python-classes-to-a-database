@@ -175,7 +175,7 @@ Check out the code in the `debug.py` file:
 from config import CONN, CURSOR
 from song import Song
 
-import ipdb; ipdb.set_trace()
+import pdb; pdb.set_trace()
 ```
 
 In this file, we're importing in the `sqlite3.Connection` and `sqlite3.Cursor`
